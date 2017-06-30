@@ -43,6 +43,9 @@ ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
 WantedBy=multi-user.target
 EOL
 
+# Change mongoDB Listening IP Address from local 127.0.0.1 to All IPs 0.0.0.0
+sudo sed -i 's/127\.0\.0\.1/0\.0\.0\.0/g' /etc/mongod.conf
+
 sudo systemctl start mongodb
 sudo systemctl status mongodb
 sudo systemctl enable mongodb
