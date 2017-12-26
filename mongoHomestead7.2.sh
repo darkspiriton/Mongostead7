@@ -52,4 +52,4 @@ sudo systemctl status mongodb
 sudo systemctl enable mongodb
 
 echo "restarting The nginx server";
-sudo service nginx restart && sudo service php7.1-fpm restart
+sudo service nginx restart && sudo service php7.2-fpm restart
