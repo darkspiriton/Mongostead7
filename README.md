@@ -7,8 +7,8 @@ Use the following command:
 
 `sudo curl -sS https://raw.githubusercontent.com/alquesadilla/Mongostead7/master/mongoHomestead7.sh | sudo sh`
 
-* PHP 7.1
+* PHP 7.2
 
-`sudo curl -sS https://raw.githubusercontent.com/alquesadilla/Mongostead7/master/mongoHomestead7.1.sh | sudo sh`
+`sudo curl -sS https://raw.githubusercontent.com/alquesadilla/Mongostead7/master/mongoHomestead7.2.sh | sudo sh`
 
 Cheers!
