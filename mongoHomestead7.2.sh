@@ -1,6 +1,5 @@
 echo "MongoDB install  script with PHP7 & nginx [Laravel Homestead]"
 echo "By Zakaria BenBakkar, @zakhttp, zakhttp@gmail.com"
-echo "Updated php7.2 & mongo4.0 by Cesar Moreno morenodev@gmail.com"
 
 echo "Importing the public key used by the package management system";
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4;
